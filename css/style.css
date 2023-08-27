@@ -1,0 +1,202 @@
+
+/******HEADER SECTION******/
+/* ********************* */
+header h1{
+    color: #66BFBF;
+    margin: 0; 
+     font-family: 'Sacramento',cursive;   
+    font-size: 5.725rem;
+    padding-top: 100px;
+}
+header p{
+   color: #036f7bc1;
+   font-size: 30px; 
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imgs-header{
+    padding-top: 100px;
+    background-color: #e4f3f7;
+     position: relative; 
+}
+.img-cloud{
+    position: absolute;
+    left: 320px;
+    bottom: 300px;
+    height: 15%;
+    width: 10%;
+}
+.img-cloud-with-sun{
+    position: absolute;
+    right: 350px;
+    top: 100px;
+    height: 15%;
+    width: 10%;
+} 
+  h3{
+    font-family: 'Nunito', sans-serif;
+    color: #66BFBF;
+    font-weight: 600;
+  }
+  
+  hr{
+    margin: 60px auto;
+    width: 5%;
+    border: 8px dotted #8df6f6f4;
+    border-bottom: none;
+  }
+  
+  header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    background-color: #EAF6F6;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  header span{
+    text-decoration: underline;
+  }
+   .imgs-header{
+     justify-content: center;
+     position: relative;
+     padding-top: 100px;
+  } 
+
+
+  /******ABOUT SECTION******/
+  /* ******************** */
+  .circular{
+    height: auto;
+    width: 150px;
+    border-radius: 80%;
+}
+  body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    font-size: 1.1em;
+  }
+  .about-me p{
+    font-family: 'Merriweather',serif;
+    /* font-family: 'Nunito', sans-serif; */
+    color: #40514e;
+     width: 50%;
+     height: auto;
+     line-height: 2; 
+     margin: 20px auto;
+  }
+  
+  h2{
+    font-family: 'Tangerine',cursive;
+    font-size: 50px;
+    color: #66BFBF;
+    padding: 10px;
+  }
+  .about-me{
+    margin-top: 20px;
+  }
+
+  /******SKILL SECTION******/
+  /* ******************** */
+
+  .skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+  }
+  
+  .skill-row img{
+    width: 25%;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 50%;
+  }
+  
+  .left{
+    float: left;
+  }
+  
+  .right{
+    float: right;
+  }
+  
+  
+  /******CONTACT SECTION*******/
+  /* *********************** */
+  
+  .contact-me h3{
+    margin-top: 20px;
+  }
+  .contact-me h2{
+    font-size: 60px;
+  }
+  
+  .contact-me p{
+    width: 50%;
+    height: auto;
+    line-height: 2; 
+    margin: 20px auto 30px;
+  }
+
+  .btn {
+    background: #11ccd4;
+    background-image: -webkit-linear-gradient(top, #11ccd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11ccd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11ccd4, #11999e);
+    background-image: -o-linear-gradient(top, #11ccd4, #11999e);
+    background-image: linear-gradient(to bottom, #11ccd4, #11999e);
+    -webkit-border-radius: 53;
+    -moz-border-radius: 53;
+    border-radius: 53px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 40px;
+  }
+  
+  .btn:hover {
+    background: #1d6ea3;
+    background-image: -webkit-linear-gradient(top, #1d6ea3, #115449);
+    background-image: -moz-linear-gradient(top, #1d6ea3, #115449);
+    background-image: -ms-linear-gradient(top, #1d6ea3, #115449);
+    background-image: -o-linear-gradient(top, #1d6ea3, #115449);
+    background-image: linear-gradient(to bottom, #1d6ea3, #115449);
+    text-decoration: none;
+  } 
+  
+  /******FOOTER SECTION******/
+  /* ********************* */
+  
+  footer{
+    margin-top: 60px;
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  footer a{
+    text-decoration: none;
+    color: #1c5759;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 5px;
+  }
+  a:hover{
+    color: #FFFFFF;
+  }
+
+  footer p{
+    margin: 25px 0 15px;
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px;
+  }
+ /******* USING MEDIA QUERIES *****/
+ @media only screen and (min-width:600px){
+  background-color: #EAF6F6;
+ }
